@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html leng="pt-br" >
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conteudo das Aulas</title>
+    <link rel="shortcut icon" href="html5.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="topo" >
+		<h1>HTML5 e CSS3 na Pratica</h1>
+	</header>
+	<main>
+		<h1>Titulo Nivel 1</h1>
+		<h2>Titulo Nivel 2</h2>
+		<h3>Titulo Nivel 3</h3>
+		<h4>Titulo Nivel 4</h4>
+		<h5>Titulo Nivel 5</h5>
+		<h6>Titulo Nivel 6</h6>
+
+		<p>Parágrafo</p>
+		<div id="imgs">
+			<img src="html5.png" alt="Logo do HTML5" width="90px" >
+			<img src="css.png" alt="Logo do CSS3" width="88px" >
+			<img src="js.png" alt="Logo do JavaScript" width="93px" >
+		</div>
+		<p>
+			Texto <strong>Negrito Semântico</strong><br>
+			Texto <b>Negrito</b>
+		</p>
+		
+		<p>
+			Texto <em>Italico Semântico</em><br>
+			Texto <i>Italico</i>	
+		</p>
+		
+		<p>
+
+			Texto <ins>Inserido Semântico</ins><br>
+			Texto <u>Sublinhado</u>
+		</p>
+
+		<ul>
+			<li>Texto <small>Pequeno</small><br>
+			<li>Texto <del>deletado</del><br>
+		
+			<li>Texto <code>Mono espaçada</code><br>
+			<li>Texto <mark>Marcado</mark>
+
+			<li>Adicionando <q>citações</q><br>
+	   		<li>Adicionando <abbr title="dar sentido a abreviação">Abreviação</abbr> <br>
+			<li>Adicionando Emoj &#x1f600;&#x1f607;&#x1f608;
+		</ul>
+	   	
+	   	<h2>Conteudo em bloco</h2>
+	   	<p>
+			Adicionando citações em <blockquote>bloco</blockquote>
+			Adicionando <address>Endereço</address><br>
+			
+		</p>
+		<p>
+       		Texto <bdo dir="rtl">oditrevnI</bdo>
+		</p>
+
+		<h2>Imagem Dinâmica</h2>
+
+		<picture>
+			<source media="(min-width: 1050px)" srcset="imgG.jpg" type="image/jpg">
+			<source media="(min-width: 750px)" srcset="imgM.jpg" type="image/jpg">
+			<img src="imgP.jpg" alt="">
+		</picture>
+	
+		<a href="js.png" download="js.png" >Baixa</a>
+
+		<h2>Adicionando Audio</h2>
+
+		<audio preload="metadata" autoplay controls>
+			<source src="Song.mp3" type="audio/mpeg">
+			<source src="song.ogg" type="audio/ogg">
+			<p>Audio não suportado! <a href="Song.mp3">clique aqui para baixa o audio</a></p>
+			<!--Tbm pode ser usado WAV-->
+		</audio>
+
+		<h2>Adicionando video em Hospedagem propria</h2>
+
+		<video poster="imgPosterClip.png" controls width="360px">
+			<source src="clip.mp4" type="video/mp4">
+			<source src="Clip.webm" type="video/webm">
+			<p>Video não suportado!</p>
+			<!--Tbm pode ser usado OGV-->
+		</video>
+
+		<h1>Video Extrno</h1>
+
+		<!-- 
+			<iframe width="360" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		-->
+		<div id="paleta">
+			<p>Paleta de Cores</p>
+		</div>
+
+	</main>
+		
+	<footer>
+		<ul>
+			<li><a href="https://github.com/DiegoDevOficial" target="_blank" >Github</a>
+			<li><a href="https://www.instagram.com/di.diego.ds/" target="_blank"  >instagram</a>
+			<li><a href="#topo" >Voltar ao topo</a>
+		</ul>
+
+	</footer>
+</body>
+</html>

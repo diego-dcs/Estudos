@@ -1,0 +1,67 @@
+@charset "UTF-8".
+
+*		{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: cblack;
+	src: url(CLoisterOpti-Black.otf);
+}
+body	{
+	background-color:#3B001D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+}
+header {
+	font-family: 'Times New Roman', serif;
+	background-image: linear-gradient(180deg ,#003B00,#008700);
+	color: #fff;
+	text-shadow: 3px 2px 1px #3B001D;
+	text-align: center;
+	padding: 6px;
+}
+main	{
+	background-color: #fff;
+	max-width: 800px;
+	margin: auto;
+	padding: 6px 2%;
+	box-shadow: 0px 2px 2px 2px #ffffff88;
+}
+main > div#imgs {
+	background: #870044;
+	text-align: center;
+	border: solid 1px #870044; 
+	margin: 6px 0px;
+	margin: auto;
+	min-width: 350px;
+	max-width: 60%;
+}
+main > img {
+	max-width: 100%;
+	max-width: 100%;
+
+}
+main mark {
+	background-color: #15D415;
+}
+#paleta	{
+	font-family: cblack, serif;
+	background: linear-gradient(90deg ,#008700, #003B00, #15D415, #3B001D, #870044);
+	color: #fff;
+	width: 500px;
+}
+footer	{
+	background-color:#003B00;
+	color: white;
+	padding: 12px;
+}
+footer ul{
+	max-width: 600px;
+	margin: auto;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
