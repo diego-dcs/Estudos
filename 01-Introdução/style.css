@@ -5,10 +5,11 @@
 	src: url(fonts/CLoisterOpti-Black.otf);
 }
 :root	{
-	--cor0: darkblue;
-	--cor1: blue;
-	--cor2: lightblue;
-	--cor3: white;
+	--cor0: black;
+	--cor1: darkblue;
+	--cor2: blue;
+	--cor3: lightblue;
+	--cor4: white;
 	--corSombras: #0008;
 	--fontePadrao: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +18,7 @@
 	padding: 0;
 }
 body	{
-	background-color:var(--cor0);
+	background-color: var(--cor0);
 }
 	/*TOPO */
 header {
@@ -35,11 +36,16 @@ main	{
 	padding: 15px 20px;
 	box-shadow: 2px 2px 3px 2px var(--corSombras);
 }
-main section {
-	background-color: lightgrey;
+ul		{
+	background-color: lightgray;
+	list-style-position: inside;
+	columns: 2;
+}
+.conteudo {
+	display: inline;
 }
 main > div#imgs {
-	background: var(--cor2);
+	background: var(--cor3);
 	text-align: center;
 	border: solid 1px #870044; 
 	margin: 6px 0px;
@@ -50,7 +56,6 @@ main > div#imgs {
 main > img {
 	max-width: 100%;
 	max-width: 100%;
-
 }
 main mark {
 	background-color: #15D415;
@@ -64,7 +69,7 @@ main mark {
 
 /*	RODAPÉ */
 footer	{
-	background-color:#003B00;
+	background-color:var(--cor1);
 	color: white;
 	padding: 12px;
 }
