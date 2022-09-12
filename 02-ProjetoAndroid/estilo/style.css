@@ -1,15 +1,19 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: idroid;
     src: url(../fontes/idroid.otf);
 }
 :root   {
-    --c0: #c5ebd6;  --c1: #83e1ad;
-    --c2: #3ddc84;  --c3: #2fa866;
-    --c4: #1a5c37;  --c5: #063d1e;
+    --c0: #c5ebd6;
+    --c1: #83e1ad;
+    --c2: #3ddc84;
+    --c3: #2fa866;
+    --c4: #1a5c37;
+    --c5: #063d1e;
     --fpadrao: Arial, Helvetica, sans-serif;
-    --fdestaque: cursive;
+    --fdestaque: 'Bebas Neue', cursive;
     --fandroid: idroid;
 }
     *   {
@@ -152,6 +156,7 @@ aside p{
 }
 ul  {
     list-style-position: inside;
+    list-style-type: circle;
     columns: 2;
 }
 
