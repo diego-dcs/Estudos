@@ -1,6 +1,6 @@
 # Estudos
 Repository de Estudos HTML, CSS e JS
 
-https://diego-dcs.github.io/02-ProjetoAndroid/index.html
-
-https://diego-dcs.github.io/03-CordelModerno/index.html
+<a href="https://diego-dcs.github.io/Estudos/02-ProjetoAndroid/index.html" >Projeto Android</a>
+<br>
+<a href="https://diego-dcs.github.io/Estudos03-CordelModerno/index.html" >Cordel Moderno</a>
