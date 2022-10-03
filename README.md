@@ -5,5 +5,5 @@ Repository de Estudos HTML, CSS
 <br>
 <a href="https://diego-dcs.github.io/Estudos/03-CordelModerno/index.html" >Cordel Moderno</a>
 <br>
-<a href="https://diego-dcs.github.io/Estudos/04-RedesSociais/index.html" >Cordel Moderno</a>
+<a href="https://diego-dcs.github.io/Estudos/04-RedesSociais/index.html" >Rede Socials visit</a>
 <br>
