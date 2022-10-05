@@ -28,7 +28,7 @@ section#tel {
     left: 50%;
     transform: translate(-50%,-50%);
     background: #fff0 url(../imagens/frame-iphone.png) top center no-repeat fixed;
-
+    background-size: cover;
     height: 627px;
     width: 311px;
 }
@@ -50,7 +50,7 @@ a img   {
     box-shadow: 2px 2px 5px var(--sombra);
     box-sizing: border-box;
 }
-img:hover {
+a img:hover {
     border: 2px solid white;
     transform: translate(-2px,-2px);
     box-shadow: 4px 4px 7px var(--sombra);
