@@ -27,7 +27,11 @@ section#tel {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #fff0 url(../imagens/frame-iphone.png) top center no-repeat fixed;
+    background-color: #fff0;
+    background-image: url(../imagens/frame-iphone.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 627px;
     width: 311px;
