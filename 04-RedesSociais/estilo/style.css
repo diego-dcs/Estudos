@@ -27,7 +27,7 @@ section#tel {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: #fff0 url(../imagens/frame-iphone.png) center no-repeat;
+    background: #fff0 url(../imagens/frame-iphone.png) center no-repeat;
     background-size: cover;
     height: 627px;
     width: 311px;
@@ -36,8 +36,8 @@ iframe#tela  {
     position: relative;
     top: 88px;
     left: 23px;
-    width:269px ;
-    height:471px ;
+    width:268px ;
+    height:470px ;
 }
 section#links {
     text-align: left;
