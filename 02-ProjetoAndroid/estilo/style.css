@@ -46,7 +46,7 @@ header > p {
     text-shadow: 2px 2px 0px #000000cc;
     max-width: 500px;
     margin: auto;
-    padding: 10px;
+    padding: 10px 10px 15px 10px;
 
 }
 
@@ -60,10 +60,9 @@ span#icone  {
 
 }
 nav    {
-    background-color: var(--c5);
+    position: absolute;
+    background-color: var(--c4);
     padding: 0;
-    box-shadow: 0px 2px 7px 2px #00000044;
-    max-width: 60%;
     display: none;
 }
 nav a{

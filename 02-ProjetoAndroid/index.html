@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilo/query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    
 </head>
-<body>
+<body onresize="winSize()">
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>
@@ -114,11 +114,21 @@
     </footer>
 </body>
 <script>
+
+    function winSize() {
+        if (window.innerWidth > 768) {
+            menu.style.display = 'block'
+        } else {
+            menu.style.display = 'none'
+        }
+    }
     function openMenu() {
         if (menu.style.display == 'block') {
             menu.style.display = 'none'
+            icone.style.background = 'transparent'
         } else {
             menu.style.display = 'block'
+            icone.style.background = 'var(--c4)'
         }
     }
 </script>
