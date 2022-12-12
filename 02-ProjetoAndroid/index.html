@@ -7,6 +7,8 @@
     <title>Projeto Android</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    
 </head>
 <body>
     <header>
@@ -14,13 +16,13 @@
         <p>
             Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
         </p>
+        <span class="material-symbols-outlined" onclick="openMenu()" id="icone">menu</span>
     </header>
-
-    <nav>
+    <nav id="menu">
         <a href="index.html">Home</a>
         <a href="#">Notícias</a>
         <a href="#">Curiosidades</a>
-        <a href="http://www.instagram.com/di_diego_ds/" target="_blank">Fale Conosco</a>
+        <a href="http://github.com/diego-dcs/" target="_blank">Fale Conosco</a>
     </nav>
 
     <main>
@@ -111,4 +113,13 @@
         <p>Site criado por <a href="" target="_blank">Gustavo Guanabara</a> para o <a href="" target="_blank">CursoemVideo</a>.</p>
     </footer>
 </body>
+<script>
+    function openMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'block'
+        }
+    }
+</script>
 </html>

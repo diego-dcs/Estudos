@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*CSS para telas >= 768px*/
+:root   {
+    --c0: #c5ebd6;
+    --c1: #83e1ad;
+    --c2: #3ddc84;
+    --c3: #2fa866;
+    --c4: #1a5c37;
+    --c5: #063d1e;
+    --fpadrao: Arial, Helvetica, sans-serif;
+    --fdestaque: 'Bebas Neue', cursive;
+    --fandroid: idroid;
+}
+@media screen and (min-width: 768px) {   
+    header  {
+        background-image: linear-gradient(180deg, var(--c3), var(--c5) );
+    }
+    span#icone  {
+        display: none;
+    }
+    nav     {
+        padding: 10px;
+        min-width: 100%;
+        display: block;
+    }
+    nav a   {
+        display: inline;
+    }
+    nav a:hover  {
+        background-color: var(--c3);
+        color: var(--c5);
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 5px 0px var(--c4);
+    }
+}
