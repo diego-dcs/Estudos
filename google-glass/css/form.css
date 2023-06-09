@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+form > fieldset {
+    padding: 5px 16px;
+    margin-bottom: 16px;
+}
+fieldset > div  {
+    padding: 5px 0;
+}
+label {
+    padding: 3px 0;
+}
+fieldset > fieldset {
+    padding: 3px 6px;
+}

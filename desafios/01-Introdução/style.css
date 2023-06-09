@@ -1,0 +1,87 @@
+@charset "UTF-8".
+
+@font-face {
+	font-family: cblack;
+	src: url(fonts/CLoisterOpti-Black.otf);
+}
+:root	{
+	--cor0: black;
+	--cor1: gray;
+	--cor2: darkgray;
+	--cor3: lightgray;
+	--cor4: lightyellow;
+	--corSombras: #0008;
+	--fontePadrao: Arial, Helvetica, sans-serif;
+}
+
+ * {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--cor0);
+	font-family: var(--fontePadrao);
+}
+header {
+	background-color: var(--cor0);
+	color: white;
+	text-align: center;
+	padding: 40px 20px;
+}
+header h1 {
+	padding-bottom: 10px;
+}
+nav {
+	background-color: var(--cor0);
+	position: sticky;
+	top: 0%;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+nav a:hover {
+	background-image: radial-gradient( #fff4,#0000);
+	color: white;
+}
+main {
+	background-color: white;
+	color: black;
+	max-width: 700px;
+	margin: auto;
+	padding: 25px 20px;
+	box-shadow: 1px 1px 3px 1px var(--corSombras);
+}
+main p {
+	padding: 15px 0;
+}
+blockquote {
+	background-color: #e8e8e8;
+	max-width: 200px;
+	padding: 6px;
+	margin: 0 0 15px 0;
+	border-radius: 5px;
+}
+main table {
+	border-collapse: collapse;
+}
+main th {
+	background-color: gray;
+	color: white;
+	border: 1px solid black;
+	padding: 3px 12px;
+}
+main td {
+	border: 1px solid black;
+	padding: 3px 12px;
+}
+table tbody tr:nth-child(2n) {
+	background-color: #f2f2f2;
+}
+
+section#img {
+	max-width: 320px;
+	margin: auto;
+}

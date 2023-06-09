@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div#cont    {
+    max-width: 100%;
+}
+#cont img   {
+    width: calc(52% - 3px);
+}
+iframe  {
+    width: calc(48% - 3px);
+    height: 260px;
+    border: none;
+    
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+ul#fotos    {
+    max-width: 700px;
+    padding: 12px;
+    list-style-type: none;
+}
+#fotos li span  {
+    background-color: #0008;
+    color: white;
+    display: none;
+    padding: 5px;    
+}
+#fotos li:hover span{
+    display: block;
+}
+#fotos li    {
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    box-shadow: 0 0 1px 1px #0008;
+    transition: 0.2s;
+}
+#fotos li:hover {
+    background-size: cover;
+    transform: scale(1.2);
+}
+li#i1 {
+    background-image: url(../imagens/galeria-01.jpg);
+}
+li#i2 {
+    background-image: url(../imagens/galeria-02.jpg);
+}
+li#i3 {
+    background-image: url(../imagens/galeria-03.jpg);
+}
+li#i4 {
+    background-image: url(../imagens/galeria-04.jpg);
+}
+li#i5 {
+    background-image: url(../imagens/galeria-05.jpg);
+}
+li#i6 {
+    background-image: url(../imagens/galeria-06.jpg);
+}

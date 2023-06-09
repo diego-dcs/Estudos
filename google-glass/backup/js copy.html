@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+</head>
+<body>
+    <h1>Asenda a lampada</h1>
+    <img id="luz" src="lampada-apagada.jpg" onmousemove="lan(1)" onmouseout="lan(2)" onclick="lan(3)">
+    <script>
+        var quebrada = false
+        function lan(tiver) {
+            if (tiver == 1 && !quebrada) {
+                luz.src = "lampada-acesa.jpg"
+            } else if (tiver == 2 && !quebrada) {
+                luz.src = "lampada-apagada.jpg"
+            } else if (tiver == 3) {
+                luz.src = "lampada-quebrada.jpg"
+                quebrada = true
+            }
+        }
+    </script>
+</body>
+</html>

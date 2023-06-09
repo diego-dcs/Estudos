@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html leng="pt-br" >
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conteudo das Aulas</title>
+    <link rel="shortcut icon" href="html5.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>HTML5 & CSS3 na pratica</h1>
+		<p>
+			Pagina criada para fins didatico.
+		</p>
+	</header>
+	<nav>
+		<a href="#para">HTML</a>
+		<a href="">CSS</a>
+	</nav>
+
+	<main>
+
+		<section id="para">
+			<h2>Parágrafo</h2>
+			
+			<P>
+				Partindo que ja saiba criar o codigo bese HTML5 <br>
+				Dentro da tag &lt;body&gt; e &lt;/body&gt; crie uma tag &lt;p&gt; seu texto e em seguida feche a tag como no exemplo abaixo.
+			</P>
+			<blockquote>
+				Exemplo: <code>&lt;p&gt;Olá Mundo!&lt;/p&gt;</code>
+			</blockquote>
+		</section>
+
+		<section id="titu">
+			<h2>Titulos</h2>
+			<p>
+				É comum o uso de titulos e subtitulos em topos de paginas, artigos para isso utilizamos as tags de marcação de titulos.
+			</p>
+			<table>
+				<tbead>
+					<tr>
+						<th scope="col">Abetura <br>de tag</th>
+						<th scope="col">Meu titulo</th>
+						<th>Fechamento</th>
+					</tr>
+				</tbead>
+				<tbody>
+					<tr>
+						<td>&lt;h1&gt;</td>
+						<td><h1>Nivel 1</h1></td>
+						<td>&lt;/h1&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h2&gt;</td>
+						<td><h2>Nivel 2</h2></td>
+						<td>&lt;/h2&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h3&gt;</td>
+						<td><h3>Nivel 3</h3></td>
+						<td>&lt;/h3&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h4&gt;</td>
+						<td><h4>Nivel 4</h4></td>
+						<td>&lt;/h4&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h5&gt;</td>
+						<td><h5>Nivel 5</h5></td>
+						<td>&lt;/h5&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h6&gt;</td>
+						<td><h6>Nivel 6</h6></td>
+						<td>&lt;/h6&gt;</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>
+				Para colocar um titulo acima dos seis parágrafos dentro de &lt;body&gt; e &lt;body&gt; crie a tag &lt;h1&gt; coloque seu titulo e feche &lt;/h1&gt; seguindo o mesmo exemplo do parágrafo. <br>
+				por padrão os navegadores coloca os titulos em <strong>negrito</strong> <br>
+				veja na tabela acima os tamanhos e as tags.
+			</p>
+			<blockquote>
+				obs. Em breve veremos que é possivél alterar as formatações com CSS.
+			</blockquote>
+		</section>
+
+		<section id="form">
+			<h2>Formatação</h2>
+			<table>
+				<thead>
+					<tr>
+						<th colspan="2" scope="col">Semântico</th>
+						<th colspan="2" scope="col">Não semântica</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> <strong>Negrito Semântico</strong> </td>
+						<td>&lt;strong&gt;</td>
+						<td><b>Negrito</b> </td>
+						<td>&lt;b&gt;</td>
+					</tr>
+					<tr>
+						<td><em>Italico Semântico</em> </td>
+						<td>&lt;em&gt;</td>
+						<td><i>Italico</i> </td>
+						<td>&lt;i&gt;</td>
+					</tr>
+					<tr>
+						<td><ins>Inserido Semântico</ins> </td>
+						<td>&lt;ins&gt;</td>
+						<td><u>Sublinhado</u> </td>
+						<td>&lt;u&gt;</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th colspan="4">Tag de Formatação Unica</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><address>Endereço</address></td>
+						<td>&lt;address&gt;</td>
+						<td><mark>Marcado</mark></td>
+						<td>&lt;mark&gt;</td>
+					</tr>
+					<tr>
+						<td><del>Deletado</del></td>
+						<td>&lt;del&gt;</td>
+						<td><small>Pequeno</small></td>
+						<td>&lt;small&gt;</td>
+					</tr>
+					<tr>
+						<td><code>Mono Espaçada</code></td>
+						<td>&lt;code&gt;</td>
+						<td><bdo dir="rtl">oditrevnI</bdo></td>
+						<td>&lt;bdo dir=&quot;rtl&quot;&gt;
+				</tbody>
+			</table>
+			<p>Espaço</p>
+		</section>
+				
+		<section id="simb">
+			<h2>Simbolus</h2>
+			<table>
+				<colgroup>
+					<col>
+					<col>
+					<col style="font-family: monospace;">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Simbolus</th>
+						<th>Code</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Ê</td>
+						<td>&amp;</td>
+						<td>&amp;amp;</td>
+					</tr>
+					<tr>
+						<td>Menor</td>
+						<td>&lt;</td>
+						<td>&amp;lt;</td>
+					</tr>
+					<tr>
+						<td>Maior</td>
+						<td>&gt;</td>
+						<td>&amp;gt;</td>
+					</tr>
+					<tr>
+						<td>Aspas</td>
+						<td>&quot;</td>
+						<td>&amp;quot;</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section id="emoj">
+			<h2>Emoj</h2>
+			<ul>
+				<li>Adicionando <abbr title="dar sentido a abreviação">Abreviação</abbr> <br></li>
+				<li>Adicionando Emoj &#x1f600;&#x1f607;&#x1f608;   	</li>
+			</ul>
+		</section>
+
+	   	<h2>Conteudo em bloco</h2>
+			
+		<section id="img">
+			<img src="imagens/html5.png" alt="Logo do HTML5" width="90px" >
+			<img src="imagens/css3.png" alt="Logo do CSS3" width="88px" >
+			<img src="imagens/js.png" alt="Logo do JavaScript" width="93px" >
+		</section>
+	
+		<section>
+			<h2>Imagem Dinâmica</h2>
+			<picture>
+				<source media="(min-width: 1050px)" srcset="imgG.jpg" type="image/jpg">
+				<source media="(min-width: 750px)" srcset="imgM.jpg" type="image/jpg">
+				<img src="imgP.jpg" alt="">
+			</picture>
+		</section>
+	
+		<section>
+			<h2>Adicionando Audio</h2>
+			<audio preload="metadata" autoplay controls>
+				<source src="Song.mp3" type="audio/mpeg">
+				<source src="song.ogg" type="audio/ogg">
+				<p>Audio não suportado! <a href="Song.mp3">clique aqui para baixa o audio</a></p>
+				<!--Tbm pode ser usado WAV-->
+			</audio>
+		</section>
+
+		<section>
+			<h2>Adicionando video em Hospedagem propria</h2>
+
+			<video poster="imgPosterClip.png" controls width="360px">
+				<source src="clip.mp4" type="video/mp4">
+				<source src="Clip.webm" type="video/webm">
+				<p>Video não suportado!</p>
+				<!--Tbm pode ser usado OGV-->
+			</video>
+
+			<h2>Video Extrno</h2>
+			<!--
+				<iframe width="360" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			-->
+		</section>
+
+		<a href="js.png" download="js.png" >Baixa</a>
+
+	</main>
+		
+	<footer>
+		<ul>
+			<li><a href="https://github.com/DiegoDevOficial" target="_blank" >Github</a>
+			<li><a href="https://www.instagram.com/di.diego.ds/" target="_blank"  >instagram</a>
+			<li><a href="#topo" >Voltar ao topo</a>
+		</ul>
+
+	</footer>
+</body>
+</html>

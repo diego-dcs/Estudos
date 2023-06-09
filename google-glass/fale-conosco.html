@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div id="interface">
+        <header>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>        
+            <img id="icone" src="imagens/glass-oculos-preto-peq.png" alt="">  
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="specs.html">Especificações</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="multimidia.html">Multimídia</a></li>
+                <li><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h3>Fale Conosco > Contato</h3>
+            <h1>Formulário de Contato</h1>
+            <h2>por Gustavo Guanabara</h2>
+            <h3 class="data">Atualizado em 01/Maio/2013</h3>
+
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Identificação do Usuário</legend>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required maxlength="40" placeholder="Digite nome cmmpleto">
+                    </div>
+                    <div>
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" required minlength="8" maxlength="24" placeholder="Digite sua senha">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required placeholder="exemplo@gmail.com">
+                    </div>
+                    <fieldset>
+                        <legend>Sexo:</legend>
+                        <input type="radio" name="sexo" id="m">
+                        <label for="m">Masculino</label><br>
+                        <input type="radio" name="sexo" id="f">
+                        <label for="f">Feminino</label>
+                    </fieldset>
+                    <div>
+                        <label for="dataNascimento">Data de Nascimento:</label>
+                        <input type="date" name="nascimento" id="dataNascimento" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Endereço do Usuário</legend>
+                    <div>
+                        <label for="nCasa">Número:</label>
+                        <input type="number" name="nCasa" id="nCasa" maxlength="3" value="000">
+                    </div>
+                    <div>
+                        <label for="rua">Logradouro:</label>
+                        <input type="text" name="rua" id="rua" placeholder="Rua,Avenida etc" required>
+                    </div>
+                    <div>
+                        <label for="estado">Estado:</label>
+                        <select name="estado" id="estado">
+                            <option value="null">--Selecione--</option>
+                            <!--estados matriz Js-->
+                        </select>
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade:</label>
+                        <input type="search" name="cidade" id="cidade" list="cidades" placeholder="Digite">
+                        <datalist id="cidades">
+                            <!--cidades matriz JS-->
+                        </datalist>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensagem do Usuário</legend>
+                    <div>
+                        <label for="gu">Grau de Urgência:</label><br>
+                        <input type="range" name="gu" id="gu" min="0" max="10" step="2.5">
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label><br>
+                        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Quero um Google Glass</legend>
+                    <input type="checkbox" name="aceitar" id="aceitar" checked>
+                    <label for="aceitar">Gostaria de adquirir um Google Glass quando disponível</label>
+                    <div>
+                        <label for="cor">Cor:</label>
+                        <input type="color" name="cor" id="cor">
+                    </div>
+                    <div>
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" name="qyantidade" id="quantidade" min="1" max="10" value="1">
+                    </div>
+                    <div>Preço Total: <output id="preco">R$ 0,00</output></div>
+                </fieldset>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer>
+            <p>
+                Copyright 2013 - by Gustavo Guanabara
+                <ul>
+                    <li><a href="mttp://github.com/diego-dcs/">Github</a></li>
+                    <li><a href="http://www.instagram.com/di.diego.ds/">Instagram</a></li>
+                </ul>
+            </p>
+        </footer>
+    </div>
+    <script src="javascript/funcoes.js"></script>
+    </body>
+    </html>

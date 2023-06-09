@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *   {
+            max-height: 100vh;
+            max-width: 100vw;
+        }
+        body    {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h1>calcular</h1>
+        <input type="number" name="n1" id="n1" placeholder="Digite um numero"><br>
+        <input type="number" name="n2" id="n2" placeholder="Digite um numero" 
+        oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)"><br>
+        <output id="soma">0</output> <br>
+        <input type="reset" value="Limpar">
+    </form>
+    <output id="nivel">0</output>
+    <input type="range" id="r1" oninput="nivel.innerHTML = Number(r1.value)">
+</body>
+<script>
+    
+</script>
+</html>

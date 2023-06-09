@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundos</title>
+    <style>
+        body{
+            background-image: url(wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        main {
+            background-color: white;
+            max-width: 800px; margin: auto;
+        }
+        div {
+            height: 250px;
+            width: 250px;
+            background-color: lightgray;
+            margin: 3px 1px;
+            display: inline-block;
+        }
+        p  {
+            background-color: black;
+            color:white;
+            margin: 0;  
+            text-align: center;
+        }
+        #f1 { background-color: lightblue; }
+        #f2 { background-image: linear-gradient(green, yellow, red); }
+        #f3 { background-image: radial-gradient(blue, yellow, green); }
+        #f4 {
+            background-image: url(pattern004.png);  
+            background-repeat: no-repeat;
+        }
+        #f5 {
+            background-image: url(pattern004.png);  
+            background-repeat: repeat-x;
+        }
+        #f6 {
+            background-image: url(pattern004.png);  
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="f1"> <p>01 Cor Solida</P></div>
+        <div id="f2"> <p>02 Gradiente Linear</P> </div>
+        <div id="f3"> <p>03 Gradiente Radial</P> </div>
+        <div id="f4"> <p>04 Não repetida</P> </div>
+        <div id="f5"> <p>05 Repetir Eicho X</P> </div>
+        <div id="f6"> <p>06 Repetir Eicho Y</P> </div>
+    </main>
+</body>
+</html>
